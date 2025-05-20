@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario CEP</title>
+</head>
+<body>  
+    <div class="form-container">
+        <h1>Cadastro de usuário</h1>
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Nome:" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email"  placeholder="Email:" required>
+
+            <label for="cep">CEP: </label>
+            <input type="text" id="cep" name="cep" placeholder="000" maxlength="9" required >
+
+            <label for="logradouro">Rua</label>
+            <input type="text" name="logradouro" id="logradouro" placeholder="Rua:" required>
+
+            <label for="complemento">complemento: </label>
+            <input type="text" name="complemento" id="complemento">
+
+            <label for="bairro">bairro: </label>
+            <input type="text" name="bairro" id="bairro">
+
+            <label for="cidade">cidade: </label>
+            <input type="text" name="cidade" id="cidade">
+
+            <label for="estado">estado: </label>
+            <input type="text" name="estado" id="estado">
+
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
